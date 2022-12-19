@@ -8,7 +8,7 @@ class file{
     		for(j=1;j<(a-1);j++){
     			System.out.print(j);
     		}
-    		for(k=1;k<(a-2);k++){
+    		for(k=(a-3);k>0;k--){
     			System.out.print(k);
     		}
     		System.out.println();
