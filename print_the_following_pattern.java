@@ -1,15 +1,17 @@
 import java.util.*;
-public class file{
+class file{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        int a=n;
-        for(int i=1;i<=n;i++){
-            for(int j=1;j<=a;j++){
-                System.out.print(j+"");
-            }
-            a--;
-            System.out.println();
-        }
+        int a,i,j,k;
+        a=sc.nextInt();
+        for(i=1;i<=a;i++){
+    		for(j=1;j<(a-1);j++){
+    			System.out.print(j);
+    		}
+    		for(k=1;k<(a-2);k++){
+    			System.out.print(k);
+    		}
+    		System.out.println();
+    	}
     }
 }
